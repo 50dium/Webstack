@@ -177,23 +177,6 @@ a:visited {
 }
 /** folder   **/
 
-.submit {
-  background-color:#3F75FF;
-  height:auto;
-  width:100px;
-  display:flex;
-  justify-content:center;
-  padding:12px;
-  color:white;
-  border-radius:10px;
-  transition: all 0.3s ease-out;
-
-}
-
-.submit:hover {
-	transform: translateY(-10px) scale(1.005) translateZ(0);
-  box-shadow: 0 8px 10px 0 rgba(63, 117, 255, 0.47);
-}
 nav {
 	margin-top:30px;
 }
@@ -230,7 +213,6 @@ li {
 	margin-bottom:60px;
 }
 
-
 .card-container {
 	margin:auto;
 	max-width:1100px;
@@ -245,7 +227,6 @@ li {
 	padding-right: 5%;
 }
 
-
 .webstack {
   background-color: #3b5998;
   border-radius: 10px;
@@ -255,10 +236,10 @@ li {
   transition: all 0.3s ease-out;
 }
 
-
 .webstack:nth-child(1) {
 	background-color:#e8f5f6;
 	background-image:url("../images/1/seo.png");
+	display:block;
 }
 
 .webstack:nth-child(2) {
@@ -270,32 +251,37 @@ li {
 .webstack:nth-child(3) {
 	background-color:#D3FFFF;
 	background-image:url("../images/3/pro.png");
+	display:block;
 }
 
 .webstack:nth-child(4) {
 	background-color:#307bf1;
 	background-image:url("../images/4/books.png");
+	display:block;
 }
 
 .webstack:nth-child(5) {
 	background-color:#fbc856;
 	background-image:url("../images/5/skill.png");
+	display:block;
 }
 
 .webstack:nth-child(6) {
 	background-color:#FDD9B1;
 	background-image:url("../images/6/reading.png");
-	background-size:50%;
+	display:block;
 }
 
 .webstack:nth-child(7) {
 	background-color:#fcf7f7;
 	background-image:url("../images/7/opensource.png");
+	display:block;
 }
 
 .webstack:nth-child(8) {
 	background-color:#FF6C60;
 	background-image:url("../images/8/youtube.png");
+	display:block;
 }
 
 footer {
